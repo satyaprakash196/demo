@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload Files to S3
         run: |
-          aws s3 sync . s3://my-portfolio-site-2027 --delete
+          aws s3 sync . s3://web-site-github-action--delete
